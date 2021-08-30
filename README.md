@@ -1,8 +1,8 @@
-# token-mix
+# vyper-token-mix
 
-A bare-bones implementation of the Ethereum [ERC-20 standard](https://eips.ethereum.org/EIPS/eip-20), written in [Solidity](https://github.com/ethereum/solidity).
+A bare-bones implementation of the Ethereum [ERC-20 standard](https://eips.ethereum.org/EIPS/eip-20), written in [Vyper](https://github.com/vyperlang/vyper).
 
-For [Vyper](https://github.com/vyperlang/vyper), check out [`vyper-token-mix`](https://github.com/brownie-mix/vyper-token-mix).
+For [Solidity](https://github.com/ethereum/solidity), check out [`token-mix`](https://github.com/brownie-mix/token-mix).
 
 ## Installation
 
@@ -11,12 +11,12 @@ For [Vyper](https://github.com/vyperlang/vyper), check out [`vyper-token-mix`](h
 2. Download the mix.
 
     ```bash
-    brownie bake token
+    brownie bake vyper-token
     ```
 
 ## Basic Use
 
-This mix provides a [simple template](contracts/Token.sol) upon which you can build your own token, as well as unit tests providing 100% coverage for core ERC20 functionality.
+This mix provides a [simple template](contracts/Token.vy) upon which you can build your own token, as well as unit tests providing 100% coverage for core ERC20 functionality.
 
 To interact with a deployed contract in a local environment, start by opening the console:
 
