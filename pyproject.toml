@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "razzle-dazzle"
+version = "0.1.0"
+description = "My first steps in DeFi and Ethereum Development"
+authors = ["Rasul Kireev"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+eth-brownie = "^1.16.2"
+vyper = "^0.2.15"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
