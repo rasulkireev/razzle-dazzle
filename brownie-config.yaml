@@ -65,3 +65,4 @@ hypothesis:
 autofetch_sources: false
 dependencies: null
 dev_deployment_artifacts: false
+dotenv: .env
