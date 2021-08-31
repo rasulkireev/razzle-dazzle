@@ -5,5 +5,4 @@ networks:
           port: 7545
           unlock:
             - 0x7E1E3334130355799F833ffec2D731BCa3E68aF6
-
-dotenv: .env
+# dotenv: .env
