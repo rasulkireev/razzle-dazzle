@@ -43,5 +43,11 @@ jobs:
           pip3 install poetry
           poetry install
 
+    - name: Make envfile
+      uses: SpicyPizza/create-envfile@v1
+      with:
+        WEB3_INFURA_PROJECT_ID: ${{ secrets.WEB3_INFURA_PROJECT_ID }}
+        PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+
     - name: Run Tests
       run: poetry run brownie test -C
